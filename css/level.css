@@ -1,0 +1,38 @@
+﻿/* Developer: Saffet Anıl Arseven */
+    body {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: 100%;
+        line-height: 20px;
+      }
+      img {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        line-height: 20px;
+      }
+      table {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: 100%;
+        line-height: 20px;
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      ul, lighter {
+        padding: 0;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      [type=hidden] {
+        display: none;
+      }
+        [type=none] {
+          visibility: hidden;
+        }
