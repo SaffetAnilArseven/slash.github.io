@@ -9,7 +9,14 @@ position: absolute;
 left: 5px;
 bottom: 5px;
 }
-.imgtable {
+.logo {
 position: absolute;
+right: 810
 bottom: 150px;
 }
+.github-logo {
+position: absolute;
+left: 810
+bottom: 150px;
+}
+
