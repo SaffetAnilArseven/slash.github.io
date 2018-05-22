@@ -1,4 +1,4 @@
-﻿/* Developer: Saffet Anıl Arseven */
+/* Developer: Saffet Anıl Arseven */
     body {
         margin: 0px;
         padding: 0px;
@@ -36,3 +36,30 @@
         [type=none] {
           visibility: hidden;
         }
+button, [type=button], [type=submit], [type=reset]{
+    color: #000;
+    background-color: #e5e3e3;
+    border-top: 2px #e5e3e3;
+    border-left: 2px #e5e3e3;
+    border-bottom: 2px #e5e3e3;
+    border-right: 2px #e5e3e3;
+    font:bold 14px Arial, Helvetica, sans-serif;
+}
+        [type=text] [type=password] {
+    color: #000;
+    background-color: #fff;
+    border-top: 2px #e5e3e3;
+    border-left: 2px #e5e3e3;
+    border-bottom: 2px #e5e3e3;
+    border-right: 2px #e5e3e3;
+    font:bold 14px Arial, Helvetica, sans-serif;
+}
+table {
+    table { border-collapse: collapse;}
+ table tr {border: 1px solid black;}
+table td {border: 1px solid black;}
+}
+
+hr {
+    color: darkgray
+}
