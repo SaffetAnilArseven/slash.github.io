@@ -9,3 +9,8 @@ position: absolute;
 left: 5px;
 bottom: 5px;
 }
+.logo {
+position: absolute;
+right: 400px;
+bottom: 22px;
+}
