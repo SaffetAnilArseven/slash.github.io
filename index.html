@@ -17,8 +17,6 @@
     <link rel="icon" href="img/icon.ico">
         <link rel="stylesheet" href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="scripts/clipboard/scripts/clipboard.js"></script>
-    <script src="scripts/clipboard/dist/clipboard.min.js"></script>
 </head>
 <body > 
     <center>
@@ -28,8 +26,29 @@
           <h1 class="h1title"><strong><a href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css">Slash.css</a></strong></h1>
           <h2>Tarayıcılar arası farkları eşitler</h2>
     <h3><strong><code><</code><code>link rel="stylesheet" href="</code><a href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css"><code class="codescripts">https://saffetanilarseven.github.io/slash.github.io/css/slash.css</code></a><code>"</code><code>></code></code></strong></h3>
-    <button class="btn">Panoya Kopyala</button>
-            
+        <!-- 1. Define some markup -->
+    <button class="btn">Copy</button>
+
+    <!-- 2. Include library -->
+    <script src="https://clipboardjs.com/dist/clipboard.min.js"></script>
+
+    <!-- 3. Instantiate clipboard -->
+    <script>
+    var clipboard = new ClipboardJS('.btn', {
+        text: function() {
+            return '<link rel="stylesheet" href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css">';
+            alert("<link rel="stylesheet" href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css">");
+        }
+    });
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>  
     </br></br></br>
     </td></tr>
 </table>
