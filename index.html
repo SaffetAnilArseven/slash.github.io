@@ -27,7 +27,7 @@
           <h2>Tarayıcılar arası farkları eşitler</h2>
     <h3><strong><code><</code><code>link rel="stylesheet" href="</code><a href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css"><code>https://saffetanilarseven.github.io/slash.github.io/css/slash.css</code></a><code>"</code><code>></code></code></strong></h3>
         <!-- 1. Define some markup -->
-    <button class="btn" onclick="alert()">Panoya Kopyala</button>
+    <button class="btn">Panoya Kopyala</button>
 
     <!-- 2. Include library -->
     <script src="https://clipboardjs.com/dist/clipboard.min.js"></script>
@@ -36,7 +36,7 @@
     <script>
     var clipboard = new ClipboardJS('.btn', {
         text: function() {
-            return '< link rel="stylesheet" href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css" >';
+            return '<link rel="stylesheet" href="https://saffetanilarseven.github.io/slash.github.io/css/slash.css">';
         }
     });
 
@@ -47,9 +47,6 @@
     clipboard.on('error', function(e) {
         console.log(e);
     });
-        function alert() {
-        alert("📋");
-}
     </script>  
     </br></br></br>
     </td></tr>
