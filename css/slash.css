@@ -5,6 +5,10 @@
         border: 0px;
         font-size: 100%;
         line-height: 20px;
+        font-size: 15px;
+            font-family: sans-serif;
+        font-weight: 100;
+            font-style: normal;
       }
       img {
         margin: 0px;
@@ -118,7 +122,7 @@ h6 {
     font-size: 5px;
 }
 center {
-    font-size: 14px;
+    font-size: 15px;
 }
 small {
     font-size: 5px;
@@ -127,23 +131,23 @@ big {
     font-size: 30px;
 }
 b, strong {
-    font-size: 14px;
+    font-size: 15px;
 }
 i {
-    font-size: 14px;
+    font-size: 15px;
 }
 u {
-    font-size: 14px;
+    font-size: 15px;
 }
 del {
-    font-size: 14px;
+    font-size: 15px;
 }
 sup {
-    font-size: 14px;
+    font-size: 15px;
 }
 sub {
-    font-size: 14px;
+    font-size: 15px;
 }
 code {
-    font-size: 14px;
+    font-size: 15px;
 }
