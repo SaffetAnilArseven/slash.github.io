@@ -4,19 +4,3 @@
 p {
   color: black;
 }
-.gtranslate {
-position: absolute;
-left: 5px;
-bottom: 5px;
-}
-.logo {
-position: absolute;
-right: 810px;
-bottom: 150px;
-}
-.github-logo {
-position: absolute;
-left: 810px;
-bottom: 150px;
-}
-
