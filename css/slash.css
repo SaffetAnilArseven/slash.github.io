@@ -7,7 +7,7 @@
         line-height: 20px;
         font-size: 15px;
             font-family: sans-serif;
-        font-weight: 100;
+        font-weight: 300;
             font-style: normal;
       }
       img {
@@ -50,6 +50,9 @@ button, [type=button], [type=submit], [type=reset]{
     border-bottom: 2px #afacac;
     border-right: 2px #afacac;
     font:bold 14px Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        font-weight: 300;
+            font-style: normal;
 }
         [type=text], [type=password], area, label {
             height: 20px;
@@ -61,6 +64,9 @@ button, [type=button], [type=submit], [type=reset]{
     border-bottom: 2px #afacac;
     border-right: 2px #afacac;
     font:bold 14px Arial, Helvetica, sans-serif;
+                    font-size: 15px;
+        font-weight: 300;
+            font-style: normal;
 }
 table {
     table { border-collapse: collapse;}
@@ -73,12 +79,12 @@ hr {
 }
 h1, h2, h3, h4, h5, h6, center, big, small, u, del, sup, sub {
     font-family: sans-serif;
-        font-weight: 100;
+        font-weight: 300;
             font-style: normal;
 }
 code {
     font-family: monospace;
-font-weight: 100;
+font-weight: 300;
     font-style: normal;
 }
 b, strong {
@@ -89,7 +95,7 @@ b, strong {
 i {
     font-family: sans-serif;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
 }
 u {
     text-decoration: underline;
