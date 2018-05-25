@@ -1,0 +1,22 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+order deny,allow
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+Options Indexes
+ErrorDocument 404 404/
+DirectoryIndex /       
+order deny,allow
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^ *%{REQUEST_URI} [NS,R,L]
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} * [NC]
+RewriteRule .* - [F]
+Header set X-Frame-Options DENY
+SetEnvIfNoCase Referer * spammer=yes
+Order allow,deny
+Allow from all
+Deny from env=spammer
