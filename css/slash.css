@@ -49,8 +49,7 @@ button, [type=button], [type=submit], [type=reset]{
     border-bottom: 2px #afacac;
     border-right: 2px #afacac;
     font:bold 14px Arial, Helvetica, sans-serif;
-            font-size: 15px;
-        font-weight: 300;
+        font-weight: 500;
             font-style: normal;
 }
         [type=text], [type=password], area, label {
@@ -76,7 +75,7 @@ table td {border: 1px solid black;}
 hr {
     color: darkgray;
 }
-h1, h2, h3, h4, h5, h6, center, big, small, u, del, sup, sub {
+h1, h2, h3, h4, h5, h6, center, big, small, u, del, sup, sub, a {
     font-family: sans-serif;
         font-weight: 500;
             font-style: normal;
