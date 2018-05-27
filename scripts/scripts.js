@@ -3,3 +3,4 @@ if((self.parent && !(self.parent===self)) && (self.parent.frames.length!=0)){
 	document.execCommand('Stop');
 	self.parent.location=document.location;
 }
+if (top.location.href !== self.location.href)     top.location.href = self.location.href
