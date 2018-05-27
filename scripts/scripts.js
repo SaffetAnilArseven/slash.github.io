@@ -3,6 +3,15 @@ if((self.parent && !(self.parent===self)) && (self.parent.frames.length!=0)){
 	document.execCommand('Stop');
 	self.parent.location=document.location;
 }
-var index;
-			if (id == "fullscreen"){
-				index = window.open("https://saffetanilarseven.github.io/slash.github.io/" menubar=1,resizable=1,width=550,height=350");
+var tamEkranButon = document.getElementById("tamekran-button");
+ 
+function tamEkranYap() {
+var tamEkranDiv = document.getElementById("tamekran");
+var tamEkranFonk=tamEkranDiv.requestFullscreen||
+tamEkranDiv.mozRequestFullScreen||
+tamEkranDiv.msRequestFullscreen||
+tamEkranDiv.webkitRequestFullScreen;
+ 
+tamEkranFonk.call(tamEkranDiv); 
+}
+tamEkranButon.addEventListener('click', tamEkranYap);
