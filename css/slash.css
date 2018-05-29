@@ -6,8 +6,6 @@
         font-size: 100%;
         line-height: 20px;
             font-family: sans-serif;
-        font-weight: 500;
-            font-style: normal;
       }
       img {
         margin: 0px;
@@ -32,6 +30,7 @@
       }
       a {
         text-decoration: none;
+          font-family: sans-serif;
       }
       [type=hidden] {
         display: none;
@@ -49,8 +48,6 @@ button, [type=button], [type=submit], [type=reset]{
     border-bottom: 2px #afacac;
     border-right: 2px #afacac;
     font:bold 14px Arial, Helvetica, sans-serif;
-        font-weight: 500;
-            font-style: normal;
 }
         [type=text], [type=password], area, label {
             height: 20px;
@@ -63,8 +60,6 @@ button, [type=button], [type=submit], [type=reset]{
     border-right: 2px #afacac;
     font:bold 14px Arial, Helvetica, sans-serif;
                     font-size: 15px;
-        font-weight: 500;
-            font-style: normal;
 }
 table {
     table { border-collapse: collapse;}
@@ -77,16 +72,15 @@ hr {
 }
 h1, h2, h3, h4, h5, h6, center, big, small, u, del, sup, sub, a {
     font-family: sans-serif;
-        font-weight: 500;
-            font-style: normal;
 }
 code {
     font-family: monospace;
-font-weight: 500;
-    font-style: normal;
 }
 b, strong {
     font-family: sans-serif;
-    font-style: normal;
-    font-weight: 700;
+            font-weight: bold;
+}
+i {
+        font-family: sans-serif;
+            font-style: italic;
 }
