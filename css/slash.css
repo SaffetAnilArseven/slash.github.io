@@ -6,6 +6,7 @@
         font-size: 100%;
         line-height: 20px;
             font-family: sans-serif;
+        background: white;
       }
       img {
         margin: 0px;
@@ -21,16 +22,24 @@
         line-height: 20px;
         border-collapse: collapse;
         border-spacing: 0;
+          color: white;
       }
       ul, lighter {
         padding: 0;
+          color: black;
+              font-family: sans-serif;
+    color: black;
       }
       li {
         list-style: none;
+          color: black;
+              font-family: sans-serif;
+    color: black;
       }
       a {
         text-decoration: none;
           font-family: sans-serif;
+          color: black;
       }
       [type=hidden] {
         display: none;
@@ -65,22 +74,27 @@ table {
     table { border-collapse: collapse;}
  table tr {border: 1px solid black;}
 table td {border: 1px solid black;}
+    color: black;
 }
 
 hr {
     color: darkgray;
 }
-h1, h2, h3, h4, h5, h6, center, big, small, u, del, sup, sub, a {
+h1, h2, h3, h4, h5, h6, center, big, small, u, del, sup, sub, a, p {
     font-family: sans-serif;
+    color: black;
 }
 code {
     font-family: monospace;
+    color: black;
 }
 b, strong {
     font-family: sans-serif;
             font-weight: bold;
+    color: black;
 }
 i {
         font-family: sans-serif;
             font-style: italic;
+    color: black;
 }
